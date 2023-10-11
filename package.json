@@ -8,7 +8,6 @@
     "dist"
   ],
   "scripts": {
-    "postinstall": "npm run build",
     "build": "ethereumjs-config-build",
     "prepublishOnly": "npm run test && npm run build",
     "coverage": "ethereumjs-config-coverage",
