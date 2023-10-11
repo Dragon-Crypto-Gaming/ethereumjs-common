@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "postinstall": "npm run build",
     "build": "ethereumjs-config-build",
     "prepublishOnly": "npm run test && npm run build",
     "coverage": "ethereumjs-config-coverage",
@@ -31,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/ethereumjs-common.git"
+    "url": "git+https://github.com/Dragon-Crypto-Gaming/ethereumjs-common.git"
   },
   "keywords": [
     "ethereum",
